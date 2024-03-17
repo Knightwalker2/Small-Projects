@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    border: 1px solid black;
+    
+   
+}
+.navbar{
+    background: rgb(147, 14, 236);
+    color: white;
+    padding-left: 8px;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+    
+}
+ul li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    font-size: 20px;
+}
+li:hover{
+    color: rgb(212, 248, 3);
+    cursor: pointer;
+    transition: 1s;
+}
+.personal-bio{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background: rgb(147, 14, 236);
+    width: 100%;
+    border: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.Profile-pic{
+    width: 50%;
+    height: 80vh;            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile{
+width:450px;
+border-radius: 50%;
+}
+.about-me{
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+
+position: absolute;
+top: 25%;
+left: 50%;
+height: 80vh;
+width: 50%;
+line-height: 30px;
+}
+.abt{
+font-size: 40px;
+margin-bottom: 30px;
+}
+.myself{
+margin-top: 16px;
+width: 550px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+letter-spacing: 1px;
+margin-bottom: 16px;
+}
+#education{
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+font-weight: 700;
+letter-spacing: 1px;
+
+}
